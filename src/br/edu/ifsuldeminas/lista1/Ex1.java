@@ -1,4 +1,4 @@
-package lista1;
+package br.edu.ifsuldeminas.lista1;
 
 public class Ex1 extends Ex {
 

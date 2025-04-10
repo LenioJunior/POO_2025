@@ -1,6 +1,4 @@
-package br.edu.ifsuldeminas;
-
-import br.edu.ifsuldeminas.animais.Animal;
+package br.edu.ifsuldeminas.animais;
 
 public class Cachorro extends Animal {
   
@@ -11,5 +9,9 @@ public class Cachorro extends Animal {
   public void emiteSom(){
     viver();
     System.out.println("Au au");
+  }
+
+  public void fazerOutraCoisa(){
+    System.out.println("Estou fazendo outra coisa");
   }
 }

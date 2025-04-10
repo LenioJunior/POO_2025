@@ -1,11 +1,10 @@
-package lista1;
+package br.edu.ifsuldeminas.lista1;
 
 public class Main {
   public static void main(String[] args) throws Exception {
     //Menu
     runEx(new Ex1());
-    runEx(new Ex2());
-    
+    runEx(new Ex2());    
   }
 
   public static void runEx(Ex ex){

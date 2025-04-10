@@ -1,6 +1,4 @@
-package br.edu.ifsuldeminas;
-
-import br.edu.ifsuldeminas.animais.Animal;
+package br.edu.ifsuldeminas.animais;
 
 public class Gato extends Animal {
 

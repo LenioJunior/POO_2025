@@ -1,3 +1,4 @@
+package br.edu.ifsuldeminas.formas;
 //package br.edu.ifsuldeminas.formas;
 // Classe abstrata Forma
 // public abstract class Forma {
