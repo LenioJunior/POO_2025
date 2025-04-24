@@ -10,7 +10,8 @@ public class Tests {
 
   @Test
   public void testNewCarroCorrida() {
-    CarroCorrida c1 = new CarroCorrida(1, "Carlos", "POO1", 100);
+    float velocidadeMaxima = 100;
+    CarroCorrida c1 = new CarroCorrida(1, "Carlos", "POO1", velocidadeMaxima);
 
     assertFalse("O carro deve estar desligado!", c1.isLigado());
     assertTrue("O carro deve estar parado!", c1.isParado());
@@ -20,6 +21,8 @@ public class Tests {
     assertTrue("O carro deve estar ligado!", c1.isLigado());
     c1.acelerar(0.3);
     assertEquals(c1.getVelocidadeAtual(), 30, 0);
+    c1.acelerar(1000);
+    assertEquals((double)velocidadeMaxima, (double)c1.getVelocidadeAtual(), 0);
   }
 
 }
